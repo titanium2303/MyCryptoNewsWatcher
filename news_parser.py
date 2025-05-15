@@ -3,7 +3,13 @@ from trigger_keywords import TRIGGERS
 
 FEEDS = [
     "https://www.coindesk.com/arc/outboundfeeds/rss/",
-    "https://cointelegraph.com/rss"
+    "https://cointelegraph.com/rss",
+    "https://decrypt.co/feed",
+    "https://cryptoslate.com/feed/",
+    "https://www.newsbtc.com/feed/",
+    "https://bitcoinmagazine.com/.rss/full",
+    "https://www.theblock.co/feeds/rss",
+    "https://cryptopotato.com/feed/"
 ]
 
 def get_triggers():
