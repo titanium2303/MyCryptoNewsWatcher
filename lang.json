@@ -1,0 +1,12 @@
+{
+  "en": {
+    "welcome": "✅ You will now receive alerts in English.",
+    "alerts": "⚡️ Recent news triggers:",
+    "no_alerts": "✅ No significant triggers detected."
+  },
+  "ru": {
+    "welcome": "✅ Вы будете получать уведомления на русском.",
+    "alerts": "⚡️ Последние новостные сигналы:",
+    "no_alerts": "✅ Существенных сигналов не обнаружено."
+  }
+}
