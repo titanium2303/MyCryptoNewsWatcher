@@ -12,8 +12,32 @@ Telegram-бот, отслеживающий важные крипто-новос
 ## 🛠 Установка
 
 ```bash
-git clone https://github.com/yourusername/MyCryptoNewsWatcher.git
+git clone https://github.com/titanium2303/MyCryptoNewsWatcher.git
 cd MyCryptoNewsWatcher
 python -m venv venv
-source venv/bin/activate  # Windows: venv\\Scripts\\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+## ⚙️ Конфигурация
+
+Открой `config.py` и вставь свой Telegram Bot Token:
+
+```python
+TELEGRAM_TOKEN = "your_token_here"
+```
+
+## ▶️ Запуск
+
+```bash
+python bot.py
+```
+
+## 📦 Развёртывание на VPS (опционально)
+
+Можно запустить как systemd-сервис или обернуть в Docker. Помогу при необходимости.
+
+---
+
+**Автор**: titanium2303 
+**Лицензия**: MIT
