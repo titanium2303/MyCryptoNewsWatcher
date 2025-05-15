@@ -1,43 +1,43 @@
 # MyCryptoNewsWatcher 🤖📈
 
-Telegram-бот, отслеживающий важные крипто-новости и сигнализирующий возможные движения цены Bitcoin (рост / падение), основываясь на ключевых триггерах.
+Telegram bot that tracks important crypto news and signals possible Bitcoin price movements (rise / fall) based on key triggers.
 
-## 🚀 Возможности
+## 🚀 Features
 
-- Парсинг новостей с CoinDesk и CoinTelegraph
-- Определение бычьих и медвежьих триггеров
-- Поддержка английского и русского языков
-- Уведомления в Telegram через команды `/start` и `/status`
+- Parsing news from CoinDesk and CoinTelegraph
+- Detect bullish and bearish triggers
+- English and Russian language support
+- Telegram notifications via `/start` and `/status` commands
 
-## 🛠 Установка
+## 🛠 Installation
 
 ```bash
 git clone https://github.com/titanium2303/MyCryptoNewsWatcher.git
 cd MyCryptoNewsWatcher
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## ⚙️ Конфигурация
+## ⚙️ Configuration
 
-Открой `config.py` и вставь свой Telegram Bot Token:
+Open ``config.py`` and insert your Telegram Bot Token:
 
 ```python
-TELEGRAM_TOKEN = "your_token_here"
+TELEGRAM_TOKEN = “your_token_here”
 ```
 
-## ▶️ Запуск
+## ▶️ Run
 
-```bash
+````bash
 python bot.py
 ```
 
-## 📦 Развёртывание на VPS (опционально)
+## 📦 Deployment on VPS (optional)
 
-Можно запустить как systemd-сервис или обернуть в Docker. Помогу при необходимости.
+Can be run as a systemd service or wrapped in Docker.
 
 ---
 
-**Автор**: titanium2303 
-**Лицензия**: MIT
+**Author**: titanium2303 
+**License**: MIT
